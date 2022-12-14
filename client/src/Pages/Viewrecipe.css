@@ -1,0 +1,169 @@
+.wholeview{
+    background: rgb(255,138,114);
+    background: linear-gradient(45deg, rgba(255,138,114,1) 0%, rgba(255,172,102,1) 50%, rgba(255,209,98,1) 100%);
+    height: 150vh;
+}
+.viewrecipe{
+    position: relative;
+    top: 150px;
+    left: 100px;
+    width: 1700px;
+    height: 1200px;
+    border-radius: 20px;
+    background-image: url('../assets/viewrecipebg.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.viewcontent{
+    position: relative;
+    left: 90px;
+    top: 20px;
+    background-color: rgba(255,255,255,0.35);
+    backdrop-filter: blur(10px);
+    width: 1550px;
+    height: 1150px;
+    border-radius: 20px;
+}
+.userdetails{
+    width: 100%;
+    height: 20%;
+    /* border-bottom: 1px solid black; */
+}
+#userdetailshead{
+    position: relative;
+    left: 90px;
+    color: white;
+}
+.finaluserdetails{
+    position: relative;
+    width: 1500px;
+    left: 90px;
+    bottom: 20px;
+    /* top: 20px;
+    left: 50px; */
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+.finaldetails1{
+    height: 100%;
+    width: 30%;
+    /* border-right: 1px solid black; */  
+}
+.finaldetails2{
+    height: 100%;
+    width: 40%;
+    /* border-right: 1px solid black; */
+}
+.finaldetails3{
+    height: 100%;
+    width: 30%;
+}
+#detailsid{
+    position: relative;
+    left: 40px;
+    box-shadow: 0px 12px 38px -5px rgba(0,0,0,0.75);
+    width: 300px;
+    height: 40px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 22px;
+}
+#detailsname{
+    position: relative;
+    left: 100px;
+    box-shadow: 0px 12px 38px -5px rgba(0,0,0,0.75);
+    width: 300px;
+    height: 40px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 22px;
+}
+#detailsemail{
+    position: relative;
+    left: 40px;
+    box-shadow: 0px 12px 38px -5px rgba(0,0,0,0.75);
+    width: 300px;
+    height: 40px;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 22px;
+}
+#detailshead1{
+    position: relative;
+    left: 40px;
+    color: white;
+}
+#detailshead2{
+    position: relative;
+    left: 100px;
+    color: white;
+}
+#detailshead3{
+    position: relative;
+    left: 40px;
+    color: white;
+}
+#recipedetailshead{
+    position: relative;
+    left: 86px;
+    color: white;
+}
+.recipedetails{
+    height: 80%;
+    width: 100%;
+}
+.finalrecipedetails{
+    position: relative;
+    left: 90px;
+    width: 1400px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+}
+.finalrecipe{
+    color: white;
+}
+.finalingredient{
+    width: 350px;
+    height: 250px;
+    /* border: 1px solid black; */
+    background-color: white;
+    box-shadow: 0px 12px 38px -5px rgba(0,0,0,0.75);
+    border-radius: 20px;
+    position: relative;
+    right: 215px;
+    top: 250px;
+}
+.finalserving{
+    width: 300px;
+    height: 250px;
+    /* border: 1px solid black; */
+    background-color: white;
+    box-shadow: 0px 12px 38px -5px rgba(0,0,0,0.75);
+    border-radius: 20px;
+    position: relative;
+    right: 110px;
+    top: 250px;
+}
+.finalabout{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    box-shadow: 0px 12px 38px -5px rgba(0,0,0,0.75);
+    border-radius: 20px;
+}
+.finalsteps{
+    width: 1400px;
+    height: 230px;
+    background-color: white;
+    box-shadow: 0px 12px 38px -5px rgba(0,0,0,0.75);
+    border-radius: 20px;
+    position: relative;
+    top: 50px;
+}

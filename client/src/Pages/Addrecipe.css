@@ -1,0 +1,93 @@
+.wholeaddrecipe{
+    background: rgb(255,138,114);
+    background: linear-gradient(45deg, rgba(255,138,114,1) 0%, rgba(255,172,102,1) 50%, rgba(255,209,98,1) 100%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.adduserrecipe{
+    width: 1100px;
+    height: 700px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0px 10px 12px -1px rgba(0,0,0,0.67);
+    display: flex;justify-content: space-between;
+}
+.addrecipeimg{
+    width: 50%;
+    height: 100%;
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+#addrecipeformhead{
+    position: relative;
+    left: 30px;
+    top: 40px;
+}
+.addrecipeform{
+    width: 50%;
+    height: 100%;
+}
+.formfields{
+    position: relative;
+    left: 30px;
+    top: 50px;
+}
+.formfield1{
+    display: flex;
+    position: relative;
+    top: 10px;
+    margin-bottom: 5px;
+}
+/* #servingfieldicon{
+    position: relative;
+    top: 20px;
+}
+#readyinminicon{
+    position: relative;
+    top: 20px;
+}
+#addingredienticon{
+    position: relative;
+    top: 20px;
+}
+#addmethodicon{
+    position: relative;
+    top: 20px;
+}
+#addstepsicon{
+    position: relative;
+    top: 20px;
+} */
+.formfield2{
+    position: relative;
+    top: 20px;
+}
+.formfield3{
+    position: relative;
+    top: 40px;
+}
+.formfield4{
+    position: relative;
+    top: 60px;
+}
+.formfield5{
+    position: relative;
+    top: 80px;
+}
+#addrecipebtn{
+    position: relative;
+    top: 160px;
+    left: 300px;
+    padding: 15px 20px;
+}
+#addformheading{
+    position: relative;
+    left: 30px;
+    top: 30px;
+}

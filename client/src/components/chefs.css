@@ -1,0 +1,150 @@
+.chefscard{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 230px;
+    width: 1900px;
+}
+#chefheading{
+    position: absolute;
+    left: 680px;
+    font-family: 'Fredoka One', cursive;
+}
+#chef1{
+    position: relative;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    background: rgba(255,255,255,0.55);
+    border-radius: 30px;
+    box-shadow: 0px 0px 29px 7px rgba(0,0,0,0.75);
+}
+#chef1:hover{
+    cursor: pointer;
+}
+#foodimg1{
+    background-image: url('../assets/chefcardimg1.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 35%;
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    backdrop-filter: blur(10px);
+}
+#chefimage1{
+    background-image: url(../assets/chefimg1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: relative;
+    left: 120px;
+    bottom: 80px;
+    box-shadow: 0px 0px 29px 7px rgba(0,0,0,0.75);
+    width: 150px;
+}
+#name1{
+    position: relative;
+    bottom: 110px;
+    left: 90px;
+}
+#name2{
+    position: relative;
+    bottom: 110px;
+    left: 90px;
+}
+#name3{
+    position: relative;
+    bottom: 110px;
+    left: 115px;
+}
+#chefinfo1{
+    text-align: center;
+    position: relative;
+    bottom: 120px;
+}
+#chef2{
+    position: relative;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    background: rgba(255,255,255,0.55);
+    border-radius: 30px;
+    box-shadow: 0px 0px 29px 7px rgba(0,0,0,0.75);
+}
+#chef2:hover{
+    cursor: pointer;
+}
+#foodimg2{
+    background-image: url('../assets/chefcardimg2.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 35%;
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    backdrop-filter: blur(10px);
+}
+#chefimage2{
+    background-image: url('../assets/chefimg2.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: relative;
+    left: 120px;
+    bottom: 80px;
+    box-shadow: 0px 0px 29px 7px rgba(0,0,0,0.75);
+    width: 150px;
+}
+#chef3{
+    position: relative;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    background: rgba(255,255,255,0.55);
+    border-radius: 30px;
+    box-shadow: 0px 0px 29px 7px rgba(0,0,0,0.75);
+}
+#chef3:hover{
+    cursor: pointer;
+}
+#foodimg3{
+    background-image: url('../assets/chefcardimg3.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 35%;
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    backdrop-filter: blur(10px);
+}
+#chefimage3{
+    background-image: url('../assets/chefimg3.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    position: relative;
+    left: 120px;
+    bottom: 80px;
+    box-shadow: 0px 0px 29px 7px rgba(0,0,0,0.75);
+    width: 150px;
+}
+#chefinfo2{
+    text-align: center;
+    position: relative;
+    bottom: 130px;
+}
+#chefinfo3{
+    text-align: center;
+    position: relative;
+    bottom: 130px;
+}

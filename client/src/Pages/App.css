@@ -1,0 +1,368 @@
+body{
+  margin: 0%;
+}
+.heroContent{
+  background: rgb(255,138,114);
+  background: linear-gradient(45deg, rgba(255,138,114,1) 0%, rgba(255,172,102,1) 50%, rgba(255,209,98,1) 100%);
+  background-size: cover;
+  height: 130vh;
+}
+.cuisine{
+  background-color: #FEE140;
+  background-image: linear-gradient(211deg, #FEE140 0%, #FA709A 100%);
+  background-repeat: no-repeat;
+  height: 130vh;
+}
+.chefs{
+  margin: 0%;
+  background: rgb(255,138,114);
+background: linear-gradient(210deg, rgba(255,138,114,1) 0%, rgba(175,106,153,1) 100%);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.bodyfooter{
+  background-color: #FBDA61;
+  background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
+  background-repeat: no-repeat;
+  height: 63vh;
+}
+.diffrecipes{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1300px;
+  position: relative;
+  top: 100px;
+  left: 300px;
+}
+.shakes{
+  position: relative;
+  width: 350px;
+  height: 450px;
+  background: rgba(255,255,255,0.35);
+  border-radius: 30px;
+  box-shadow: 0px 0px 40px 4px rgba(0,0,0,0.75);
+  backdrop-filter: blur(10px);
+  cursor: pointer;  
+}
+#recipehead1{
+  margin: 0%;
+  text-align: center;
+  position: relative;
+  top: 50px;
+  font-family: 'Fredoka One', cursive;
+}
+#img1{
+  width: 600px;
+  position: relative;
+  bottom: 90px;
+  right: 120px;
+}
+#img2{
+  width: 500px;
+  height: 550px;
+  position: relative;
+  bottom: 685px;
+  right: 8px;
+}
+.breakfast{
+  position: relative;
+  width: 350px;
+  height: 450px;
+  background: rgba(255,255,255,0.35);
+  border-radius: 30px;
+  box-shadow: 0px 0px 40px 4px rgba(0,0,0,0.75);
+  backdrop-filter: blur(10px);
+  cursor: pointer; 
+}
+#img3{
+  position: relative;
+  top: 80px;
+  right: 100px;
+}
+.lunch{
+  position: relative;
+  width: 350px;
+  height: 450px;
+  background: rgba(255,255,255,0.35);
+  border-radius: 30px;
+  box-shadow: 0px 0px 40px 4px rgba(0,0,0,0.75);
+  backdrop-filter: blur(10px);
+  cursor: pointer; 
+}
+#img4{
+  position: relative;
+  top: 30px;
+  right: 100px;
+}
+.dinner{
+  position: relative;
+  top: 100px;
+  width: 350px;
+  height: 450px;
+  background: rgba(255,255,255,0.35);
+  border-radius: 30px;
+  box-shadow: 0px 0px 40px 4px rgba(0,0,0,0.75);
+  backdrop-filter: blur(10px);
+  cursor: pointer; 
+}
+#img5{
+  position: relative;
+  bottom: 20px;
+  right: 80px;
+}
+.dessert{
+  position: relative;
+  top: 100px;
+  width: 350px;
+  height: 450px;
+  background: rgba(255,255,255,0.35);
+  border-radius: 30px;
+  box-shadow: 0px 0px 40px 4px rgba(0,0,0,0.75);
+  backdrop-filter: blur(10px);
+  cursor: pointer; 
+}
+#img6{
+  position: relative;
+  top: 10px;
+  right: 100px;
+}
+.fingerfood{
+  position: relative;
+  top: 100px;
+  width: 350px;
+  height: 450px;
+  background: rgba(255,255,255,0.35);
+  border-radius: 30px;
+  box-shadow: 0px 0px 40px 4px rgba(0,0,0,0.75);
+  backdrop-filter: blur(10px);
+  cursor: pointer; 
+}
+#img7{
+  position: relative;
+  bottom: 45px;
+  right: 50px;
+}
+/* .content1 .line{
+  border-bottom: 5px solid white;
+  
+  animation-name: animateLine;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-direction: linear;
+  animation-delay: 2s;
+}
+@keyframes animateLine {
+  0%{
+    width: 0%;
+    opacity: 0;
+}
+100%{
+    width: 100%;
+    opacity: 1;
+}
+} */
+/* .LOGO{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 50%;
+}
+#heading1{
+  font-size: 100px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 100;
+  color: pink;
+  line-height: 0%;
+  position: relative;
+  top: 30px;
+  animation-name: animateHeading1;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+} */
+/* @keyframes animateHeading1 {
+  from{transform: translateX(-400px);}
+}
+#heading2{
+  font-size: 100px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 100;
+  color: pink;
+  line-height: 0%;
+  position: relative;
+  animation-name: animateHeading2;
+  animation-duration: 2s;
+  animation-delay: 1.5s;
+  animation-fill-mode: both;
+} */
+/* @keyframes animateHeading2 {
+  from{transform: translateX(-600px);}
+}
+#heading3{
+  font-size: 100px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 100;
+  color: pink;
+  line-height: 0%;
+  position: relative;
+  bottom: 40px;
+  animation-name: animateHeading3;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-fill-mode: both;
+}
+@keyframes animateHeading3 {
+  from{transform: translateX(-700px);}
+} */
+/* #logoimg{
+  position: relative;
+  top: 50px;
+  right: 10px;
+  animation-name: animateLogo;
+  animation-duration: 2s;
+  animation-delay: 2.5s;
+  animation-fill-mode: both;
+}
+@keyframes animateLogo {
+  from{transform: translateX(-1500px);}
+}
+.herosection{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)) ,url(../assets/webbgimg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+} */
+/* .quote{
+  font-family: 'Macondo Swash Caps', cursive;
+  font-size: 50px;
+  color: white;
+  margin: 0%;
+  overflow: hidden;
+}
+#subquote{
+  font-size: 20px;
+}
+.content1 .quote span{
+  animation-name: animateQuote;
+  animation-duration: 2s;
+  animation-delay: 4s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+} */
+/* .quote span{
+  display: inline-block;
+}
+@keyframes animateQuote {
+  0%{
+    transform: translateY(100%);
+    opacity: 1;
+  }
+  100%{
+    transform: translateY(20px);
+    opacity: 1;
+  }
+} */
+/* .aim{
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  overflow: hidden;
+}
+.content1 .aim span{
+  animation-name: animateAim;
+  animation-duration: 2s;
+  animation-delay: 4s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+}
+.aim span{
+  display: inline-block;
+} */
+/* @keyframes animateAim {
+  0%{
+    transform: translateY(-200px);
+    opacity: 1;
+  }
+  100%{
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+.content{
+  margin: 20px 100px;
+}
+#recipeimg{
+  width: 400px;
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 30px;
+  box-shadow: 0px 0px 26px 4px rgba(0,0,0,0.75);
+} */
+/* #recipeimg:hover{
+  cursor: pointer;
+}
+.icons{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 130px;
+  overflow: hidden;
+} */
+/* #icon1{
+  width: 150px;
+  height: 100px;
+  animation-name: animateicon1;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-fill-mode: both;
+  cursor: pointer;
+}
+@keyframes animateicon1 {
+  0%{
+    transform: translateY(300px);
+  }
+  50%{
+    transform: translateY(-30px);
+  }
+} */
+/* #icon2{
+  width: 100px;
+  height: 100px;
+  animation-name: animateicon2;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-fill-mode: both;
+  cursor: pointer;
+} */
+/* @keyframes animateicon2 {
+  0%{
+    transform: translateY(300px);
+  }
+  50%{
+    transform: translateY(-30px);
+  }
+} */
+/* #icon3{
+  width: 130px;
+  height: 130px;
+  position: relative;
+  bottom: 18px;
+  animation-name: animateicon3;
+  animation-duration: 2s;
+  animation-delay: 3s;
+  animation-fill-mode: both;
+  cursor: pointer;
+} */
+/* @keyframes animateicon3 {
+  0%{
+    transform: translateY(300px);
+  }
+  50%{
+    transform: translateY(-30px);
+  }
+} */

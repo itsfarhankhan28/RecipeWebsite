@@ -1,0 +1,9 @@
+.recipes{
+    display: flex;
+    margin: 15px 100px;
+    line-height: 0%;
+}
+.recipes a{
+    margin-right: 10px;
+    color: black;
+}

@@ -1,0 +1,133 @@
+.wholecontact{
+    background: rgb(255,138,114);
+    background: linear-gradient(45deg, rgba(255,138,114,1) 0%, rgba(255,172,102,1) 50%, rgba(255,209,98,1) 100%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+.contactform{
+    width: 60%;
+    height: 100%;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    background-color: white;
+}
+.contactformcontent{
+    display: flex;
+}
+.contactimg{
+    width: 40%;
+    height: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.contactformhead{
+    line-height: 10px;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+.contactuserdetail{
+    position: relative;
+    top: 50px;
+    left: 20px;
+}
+.contactuserdetail1{
+    display: flex;
+}
+#accountsvg{
+    position: relative;
+    top: 50px;
+}
+#contactaccountname{
+    position: relative;
+    left: 20px;
+}
+#contactusername{
+    width: 250px;
+    height: 30px;
+    border-bottom: 1px solid black;
+    position: relative;
+    top: 40px;
+    right: 40px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.contactuserdetail2{
+    display: flex;
+    position: relative;
+    top: 30px;
+}
+#emailsvg{
+    position: relative;
+    top: 50px;
+}
+#contactaccountemail{
+    position: relative;
+    left: 20px;
+}
+#contactuseremail{
+    width: 250px;
+    height: 30px;
+    border-bottom: 1px solid black;
+    position: relative;
+    top: 40px;
+    right: 40px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.contactuserdetail3{
+    display: flex;
+    position: relative;
+    top: 60px;
+}
+#idsvg{
+    position: relative;
+    top: 50px;
+}
+#contactaccountid{
+    position: relative;
+    left: 20px;
+}
+#contactuserid{
+    width: 250px;
+    height: 30px;
+    border-bottom: 1px solid black;
+    position: relative;
+    top: 40px;
+    font-weight: bold;
+    font-size: 20px;
+}
+#usermessage{
+    position: relative;
+    top: 90px;
+    right: 40px;
+}
+textarea{
+    border: 1px solid white;
+    background-color: gainsboro;
+}
+#messagelabel{
+    position: relative;
+    bottom: 150px;
+    left: 50px;
+    font-weight: bold;
+    font-size: 23px;
+}
+#msgbtn{
+    position: relative;
+    top: 170px;
+    left: 100px;
+    padding: 15px 40px;
+}
