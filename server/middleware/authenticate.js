@@ -6,7 +6,7 @@ const authenticate = async(req,res,next)=>{
     //taking the cookie
     const token = req.cookies.token1
     //verify token
-    const verifytoken = jwt.verify(token , process.env.SECRET_KEY)
+    const verifytoken = jwt.verify(token , itisfarhankhanthefullstackwebdeveloper)
     //verify user
     const user = await Schema.findOne({_id:verifytoken._id})
 
