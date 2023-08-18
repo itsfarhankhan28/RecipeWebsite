@@ -21,7 +21,7 @@ const Middleware = (req,res,next)=>{
 }
 
 app.get('/', (req,res)=>{
-    res.send("This is the home page")
+    res.send("This is the Recipe website backend Created using Node.js,Express.js and MongoDB")
 })
 app.get('/about',Middleware,(req,res)=>{
     res.send("This is the about page")
