@@ -1,23 +1,22 @@
-const dotenv = require('dotenv')
+require('dotenv').config()
 const mongoose = require('mongoose')
 const express = require('express')
 const cookie_parser = require('cookie-parser') 
 const app = express()
-const port = 5000
-
+const router = require('./router/route')
 
 //Middleware for telling express to accept the data in jason form(Has to be defined before routing otherwise it won't work)
 app.use(express.json())
 app.use(cookie_parser())
 
 //Middleware connection for router file
-app.use(require('./router/route'))
+app.use('/recipe',router)
 
 //require fileupload for cloudinary
 // const fileupload = require('express-fileupload')
 
 //env file contains the database link
-dotenv.config({path:'./config.env'})
+// dotenv.config({path:'./config.env'})
 
 //connection with file that contains connection with database
 require('./db/conn')
@@ -48,6 +47,6 @@ app.get('/contact',(req,res)=>{
     res.send("This is the contact page")
 })
 
-app.listen(port,()=>{
-    console.log(`listening to port ${port}`)
+app.listen(process.env.PORT,()=>{
+    console.log(`listening to port ${process.env.PORT}`)
 })
