@@ -11,7 +11,7 @@ const Contact = () => {
 
   const getuserdetails = async()=>{
     try{
-      const res = await fetch('/getuserdata',{
+      const res = await fetch('https://recipe-website-o5qs-dx4lkp0su-itsfarhankhan28.vercel.app/recipe/getuserdata',{
         method:"GET",
             headers:{
                 Accept:"application/json",

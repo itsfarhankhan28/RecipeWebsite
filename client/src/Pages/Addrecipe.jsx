@@ -28,7 +28,7 @@ const Addrecipe = () => {
 
         const {recipename , serving , readyinMinute , ingredients , methods , steps} = addedrecipe
 
-        const res = await fetch('/addrecipe' , {
+        const res = await fetch('https://recipe-website-o5qs-dx4lkp0su-itsfarhankhan28.vercel.app/recipe/addrecipe' , {
             method:'POST',
             headers:{
                 "Content-Type":"application/json"
