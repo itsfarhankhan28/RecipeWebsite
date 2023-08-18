@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 const express = require('express')
 const cookie_parser = require('cookie-parser') 
 const app = express()
-const router = require('./router/route')
+const router = require('./api/route')
 
 //Middleware for telling express to accept the data in jason form(Has to be defined before routing otherwise it won't work)
 app.use(express.json())
