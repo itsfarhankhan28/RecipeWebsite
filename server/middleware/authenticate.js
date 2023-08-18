@@ -1,12 +1,13 @@
 const jwt = require('jsonwebtoken')
-const Schema = require('../model/signUpSchema') 
+const Schema = require('../model/signUpSchema')
+require('dotenv').config() 
 
 const authenticate = async(req,res,next)=>{
     try{
     //taking the cookie
     const token = req.cookies.token1
     //verify token
-    const verifytoken = jwt.verify(token , itisfarhankhanthefullstackwebdeveloper)
+    const verifytoken = jwt.verify(token , process.env.SECRET_KEY)
     //verify user
     const user = await Schema.findOne({_id:verifytoken._id})
 
