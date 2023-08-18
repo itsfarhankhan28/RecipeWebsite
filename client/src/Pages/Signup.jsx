@@ -23,7 +23,7 @@ const Signup = () => {
 
         const {name , surname , email , password , cpassword} = register
 
-        const res = await fetch('/recipe/register' , {
+        const res = await fetch('https://recipe-website-o5qs.vercel.app/recipe/register' , {
             method:"POST",
             headers:{
                 "Content-Type":"application/json"
