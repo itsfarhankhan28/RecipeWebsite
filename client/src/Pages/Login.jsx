@@ -1,6 +1,5 @@
 import React from "react";
 import "./Login.css";
-import image from "../assets/loginpageimg.png";
 import Navbar from "../components/Navbar";
 import loginbgimg from "../assets/loginbgimg.png";
 import { useState } from "react";
@@ -8,17 +7,11 @@ import { useNavigate } from "react-router-dom";
 
 const Login = () => {
   const navigate = useNavigate();
-  // const [login, setlogin] = useState({
-  //   email: "",
-  //   password: "",
-  // });
   const [email, setEmail] = useState();
   const [password, setPassword] = useState();
 
   const onLogin = async (e) => {
     e.preventDefault();
-
-    // const { email, password } = login;
     const login = { email, password };
     console.log(login)
     const res = await fetch("https://recipe-website-o5qs.vercel.app/recipe/signin", {
