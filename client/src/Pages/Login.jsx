@@ -21,7 +21,7 @@ const Login = () => {
     // const { email, password } = login;
     const login = { email, password };
     console.log(login)
-    const res = await fetch("https://recipe-website-o5qs-dx4lkp0su-itsfarhankhan28.vercel.app/recipe/signin", {
+    const res = await fetch("https://recipe-website-o5qs.vercel.app/recipe/signin", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

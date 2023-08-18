@@ -12,7 +12,7 @@ const Profile = () => {
     const navigatetoviewrecipe = useNavigate()
     const authprofile = async()=>{
         try{
-            const res = await fetch('https://recipe-website-o5qs-dx4lkp0su-itsfarhankhan28.vercel.app/recipe/profile',{
+            const res = await fetch('https://recipe-website-o5qs.vercel.app/recipe/profile',{
                 method:"GET",
                 headers:{
                     Accept:"application/json",
