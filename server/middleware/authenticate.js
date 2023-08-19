@@ -8,6 +8,7 @@ const authenticate = async(req,res,next)=>{
     const token = req.cookies.token1
     //verify token
     const verifytoken = jwt.verify(token , process.env.SECRET_KEY)
+    console.log(process.env.SECRET_KEY)
     //verify user
     const user = await Schema.findOne({_id:verifytoken._id})
 
