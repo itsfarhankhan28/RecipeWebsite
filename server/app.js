@@ -3,14 +3,13 @@ const express = require('express')
 const cookie_parser = require('cookie-parser') 
 const app = express()
 const router = require('./api/route')
+const cors = require('cors')
 
+app.use(cors())
 app.use(express.json())
 app.use(cookie_parser())
-
 app.use('/recipe',router)
-
 require('./db/conn')
-
 app.use(
     express.urlencoded({ extended: true })
 );
